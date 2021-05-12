@@ -1,0 +1,68 @@
+main #who {
+  display: flex;
+  margin-left: 30px;
+}
+main #who .who-left {
+  width: 500px;
+  margin-top: 100px;
+}
+main #who .who-left h5 {
+  font-size: 18px;
+  line-height: 28px;
+  color: #292929;
+  letter-spacing: 0.6px;
+  margin-bottom: 20px;
+}
+main #who .who-left p {
+  margin-bottom: 20px;
+  font-size: 18px;
+  line-height: 30px;
+  color: #7c7a7a;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+main #who .who-right {
+  margin-top: 100px;
+  margin-left: 120px;
+}
+main #ultra {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  margin-bottom: 120px;
+}
+main #ultra .ultra-child {
+  display: flex;
+  width: 400px;
+  justify-content: start;
+  margin-left: 30px;
+}
+main #ultra .ultra-child .ultra-words {
+  margin-left: 30px;
+}
+main #ultra .ultra-child .ultra-words h5 {
+  font-size: 22px;
+  line-height: 37px;
+  color: #292929;
+  letter-spacing: 0.6px;
+  font-weight: 500;
+}
+main #ultra .ultra-child .ultra-words p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #7c7a7a;
+  margin-top: 10px;
+  font-weight: 300;
+  letter-spacing: 0.6px;
+}
+main #clothes .img {
+  overflow: hidden;
+  width: 1170px;
+  height: 400px;
+}
+main #clothes .img img {
+  transition: all 0.5s;
+}
+main #clothes .img:hover img {
+  transform: scale(1.1);
+}

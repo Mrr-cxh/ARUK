@@ -1,0 +1,83 @@
+#tel {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+  text-align: center;
+}
+#tel .tel p {
+  margin-top: 10px;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 1px;
+  color: #7c7a7a;
+  font-weight: lighter;
+}
+#touch {
+  margin-top: 150px;
+}
+#touch .words {
+  text-align: center;
+  margin: 0 auto;
+  width: 770px;
+}
+#touch h3 {
+  font-size: 25px;
+  line-height: 72px;
+  font-weight: 500;
+  color: #292929;
+}
+#touch p {
+  margin-top: 10px;
+  margin-bottom: 46px;
+  font-size: 15px;
+  line-height: 25px;
+  color: #7c7a7a;
+  font-weight: 300;
+  padding: 0 35px;
+}
+#touch .input {
+  float: left;
+}
+#touch .input input,
+.textarea textarea {
+  width: 370px;
+  border: none;
+  margin: 0 14px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-bottom: 1px solid rgb(235, 235, 235);
+}
+#touch .input input:focus,
+#touch .textarea textarea:focus {
+  border-color: rgb(255, 82, 53);
+  outline: none;
+  border-bottom: 1px solid rgb(255, 82, 53);
+  /* color: rgb(255, 82, 53); */
+}
+#touch .input ::placeholder,
+.textarea ::placeholder {
+  color: rgb(159, 164, 180);
+  font-size: 14px;
+}
+.textarea textarea {
+  width: 1170px;
+  margin-top: 20px;
+}
+main #load {
+  width: 180px;
+  line-height: 60px;
+  background-color: rgb(255, 82, 53);
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  color: #f7f7f7;
+  font-size: 14px;
+  letter-spacing: 2px;
+  transition: all 0.5s;
+  margin-top: 100px;
+}
+main #load:hover {
+  background-color: #f7f7f7;
+  color: #ff5235;
+  border-bottom: none;
+}

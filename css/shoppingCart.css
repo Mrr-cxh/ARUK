@@ -1,0 +1,227 @@
+#table {
+  margin-top: 100px;
+}
+#table thead {
+  display: inline-block;
+  width: 1160px;
+  border-bottom: 1px solid #dee2e6;
+  padding-bottom: 10px;
+}
+#table thead th {
+  display: inline-block;
+  color: #212529;
+}
+#table thead .one {
+  padding-left: 14px;
+  padding-right: 400px;
+  float: left;
+}
+#table thead .two {
+  float: left;
+  margin-right: 92px;
+}
+#table tbody > tr {
+  display: flex;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #dee2e6;
+}
+#table tbody > tr:last-child {
+  border: none;
+}
+#table tbody tr .d-flex {
+  display: flex;
+  width: 278px;
+}
+#table tbody tr .d-flex .words {
+  margin-top: 50px;
+  margin-left: 20px;
+}
+#table tbody tr .d-flex .words a {
+  font-size: 12px;
+  line-height: 22px;
+  color: #000000;
+  font-weight: 500;
+  letter-spacing: 1.4px;
+}
+#table tbody tr .d-flex .words a:hover {
+  border-bottom: none;
+  color: #ff5235;
+}
+#table tbody tr .price {
+  display: inline-block;
+  margin-top: 50px;
+  margin-left: 292px;
+  font-size: 16px;
+  line-height: 28px;
+  color: #555555;
+}
+#table tbody tr .quty {
+  width: 100px;
+  line-height: 45px;
+  margin-top: 38px;
+  margin-left: 110px;
+  background-color: rgb(246, 247, 251);
+}
+#table tbody tr .quty input {
+  width: 50px;
+  text-align: center;
+  border: none;
+  background-color: rgb(246, 247, 251);
+}
+#table tbody tr .quty input :focus {
+  border: none;
+  outline: none;
+}
+#table tbody tr .quty .number {
+  width: 100px;
+  display: inline-flex;
+  justify-content: center;
+  position: relative;
+}
+#table tbody tr .quty .number .reduce {
+  position: absolute;
+  left: 14px;
+  top: -16px;
+  cursor: pointer;
+  user-select: none;
+}
+#table tbody tr .quty .number .add {
+  position: absolute;
+  top: -16px;
+  right: 10px;
+  cursor: pointer;
+  user-select: none;
+}
+#table tbody tr .total {
+  margin-top: 40px;
+  margin-left: 88px;
+}
+#table tbody tr .total .total-price {
+  color: #ff5235;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 500;
+}
+#table tbody tr .total button {
+  margin-left: 100px;
+  border: none;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: white;
+  box-shadow: 0px 3px 7px 0px rgba(255, 82, 53, 0.09);
+  color: #555555;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+#table tbody tr .total button:hover {
+  background-color: rgb(255, 82, 53);
+  color: #f7f7f7;
+}
+#table tbody tr .button button {
+  border: 1px solid rgb(225, 225, 225);
+  width: 258px;
+  line-height: 43px;
+  background-color: white;
+  font-size: 13px;
+  color: #292929;
+  letter-spacing: 0.4px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+#table tbody tr .button button:hover {
+  background-color: rgb(255, 82, 53);
+  color: white;
+}
+#table tbody tr .button .two {
+  margin-left: 30px;
+}
+#table tbody tr .button .three {
+  margin-left: 330px;
+}
+#counpon {
+  margin-top: 70px;
+  display: flex;
+}
+#counpon-left {
+  width: 570px;
+}
+#counpon-left h6 {
+  font-size: 25px;
+  line-height: 48px;
+  color: #292929;
+  font-weight: 500;
+}
+#counpon-left p {
+  font-size: 14px;
+  color: #898989;
+  line-height: 24px;
+  font-weight: 300;
+  margin-bottom: 25px;
+}
+#counpon-left form input {
+  width: 365px;
+  line-height: 45px;
+  background-color: rgb(246, 247, 251);
+  border: none;
+  outline: none;
+  padding-left: 10px;
+}
+#counpon-left form button {
+  width: 180px;
+  line-height: 45px;
+  font-size: 13px;
+  letter-spacing: 0.8px;
+  background-color: rgb(255, 82, 53);
+  text-align: center;
+  color: #f7f7f7;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-left: 10px;
+}
+#counpon-right {
+  width: 600px;
+  margin-left: 30px;
+  background-color: rgb(251, 251, 251);
+}
+#cart-total {
+  margin: 0 auto;
+  width: 500px;
+}
+#cart-total h6 {
+  padding-top: 20px;
+  margin-bottom: 10px;
+  font-size: 24px;
+  line-height: 48px;
+  font-weight: 500;
+  letter-spacing: 0.8px;
+  border-bottom: 1px solid rgb(225, 225, 225);
+}
+#cart-total li {
+  font-size: 14px;
+  color: #7d7d7d;
+  line-height: 48px;
+  display: flex;
+  justify-content: space-between;
+}
+#cart-total p {
+  font-size: 14px;
+  line-height: 26px;
+  color: #7d7d7d;
+  padding-top: 15px;
+}
+#cart-total button {
+  width: 420px;
+  background-color: rgb(255, 82, 53);
+  line-height: 60px;
+  text-align: center;
+  color: #f7f7f7;
+  font-size: 14px;
+  letter-spacing: 2px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin: 40px 0;
+}

@@ -1,0 +1,167 @@
+#collection-top {
+  margin-top: 100px;
+  display: flex;
+  position: relative;
+  margin-bottom: 100px;
+}
+#collection-top #sort-by {
+  font-size: 12px;
+  line-height: 18px;
+  color: #4a4a4a;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+#collection-top #sort-by select,
+#collection-top #show select {
+  border: 1px solid rgb(186, 186, 186);
+  height: 29px;
+  background: none;
+  font-size: 15px;
+  font-weight: 300;
+  color: #666666;
+  margin-left: 10px;
+  outline: none;
+}
+#collection-top #sort-by select option,
+#collection-top #show select option {
+  color: #666666;
+  height: 30px;
+  font-size: 15px;
+}
+#collection-top #view {
+  margin-left: 30px;
+}
+#collection-top #view span {
+  margin-top: 4px;
+  margin-right: 10px;
+  display: inline-block;
+  width: 28px;
+  height: 20px;
+  color: black;
+  border: 1px solid rgb(219, 219, 219);
+  text-align: center;
+  font-size: 14px;
+  user-select: none;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+#collection-top #view span:hover {
+  color: red;
+}
+#collection-top #collection-nav {
+  position: absolute;
+  right: 20px;
+}
+#collection-top #collection-nav li {
+  float: left;
+}
+#collection-top #collection-nav li a {
+  border: 1px solid rgb(219, 219, 219);
+  margin-right: 10px;
+  font-size: 14px;
+  color: #a39f9f;
+  padding: 0.5rem 0.75em;
+}
+#collection-top #collection-nav li .coll-pageActive {
+  color: #fff;
+  background-color: rgb(255, 82, 53);
+}
+
+main #arri #shopcar {
+  display: flex;
+  flex-wrap: wrap;
+}
+main #arri #shopcar .shopcar-fox {
+  width: 300px;
+  position: relative;
+  text-align: center;
+  margin-bottom: 40px;
+}
+main #arri #shopcar .shopcar-fox .img {
+  border: 1px solid rgb(243, 244, 246);
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+main #arri #shopcar .shopcar-fox .img img {
+  transition: 0.5s;
+}
+main #arri #shopcar .shopcar-fox:hover img {
+  transform: scale(1.1);
+}
+main #arri #shopcar .shopcar-fox .words {
+  padding-top: 25px;
+  position: relative;
+}
+main #arri #shopcar .shopcar-fox .words h5 {
+  line-height: 30px;
+  font-weight: 500;
+  color: #4a4a4a;
+  letter-spacing: 2px;
+}
+main #arri #shopcar .shopcar-fox .words h5 a:hover {
+  border-bottom: none;
+}
+main #arri #shopcar .shopcar-fox .star {
+  margin-left: 100px;
+  margin-bottom: 10px;
+}
+main #arri #shopcar .shopcar-fox .star li {
+  float: left;
+  color: orange;
+  font-size: 20px;
+  margin-right: 4px;
+}
+main #arri #shopcar .shopcar-fox .price del {
+  color: #a39f9f;
+}
+main #arri #shopcar .shopcar-fox .info {
+  position: absolute;
+  top: -24px;
+  left: 60px;
+  background-color: rgb(247, 255, 241);
+  width: 250px;
+  line-height: 40px;
+  padding-left: 25px;
+  padding-right: 25px;
+  opacity: 0;
+  margin-left: -60px;
+  transition: all 0.5s;
+}
+main #arri #shopcar .shopcar-fox .info .search,
+main #arri #shopcar .shopcar-fox .info .like {
+  float: right;
+  margin-right: 10px;
+}
+main #arri #shopcar .shopcar-fox:hover .info {
+  top: -40px;
+  opacity: 1;
+}
+main #arri #shopcar .shopcar-fox .info li {
+  float: left;
+}
+main #arri #shopcar .shopcar-fox .info li:hover a {
+  border-bottom: none;
+}
+
+main #load {
+  width: 180px;
+  line-height: 60px;
+  background-color: rgb(255, 82, 53);
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  color: #f7f7f7;
+  font-size: 14px;
+  letter-spacing: 2px;
+  transition: all 0.5s;
+  margin-top: 100px;
+}
+main #load:hover {
+  background-color: #f7f7f7;
+  color: #ff5235;
+  border-bottom: none;
+}
